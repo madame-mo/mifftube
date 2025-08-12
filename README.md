@@ -1,2 +1,2 @@
 # mifftube
-remaking youtube (work in progress)
+making my own youtube (work in progress)
