@@ -1,0 +1,105 @@
+.search-box{
+    font-size: 15px;
+    font-family: "Fredoka", sans-serif;
+    margin-bottom: 20px;
+    display: block;
+}
+
+
+.thumbn {
+    width: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+    object-position: contain;
+    display: block;
+    transition: width 0.55s;
+
+}
+
+.thumbn:hover{
+    width: 310px;
+}
+
+p{
+    font-family: "Fredoka", sans-serif;
+   /* font-family: "Roboto", sans-serif; */
+}
+
+.vid-t{
+    display: block;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+.vid-preview{
+    display: inline-block;
+    padding: 10px;
+    vertical-align: top;
+}
+
+.channel-name{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: grey;
+}
+
+.channel-name:hover{
+    cursor: pointer;
+    color:  rgb(109, 128, 64);
+}
+
+.vid-info-grid{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    
+}
+
+.channel-profile{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    margin-top: 10px;
+    vertical-align: top;
+    transition: border 0.15s, width 0.15s, height 0.15s;
+}
+
+.channel-profile:hover{
+    cursor: pointer;
+    border: 2px solid rgb(109, 128, 64);
+    width: 52px;
+    height: 52px;
+}
+
+.video-info{
+    padding-left: 20px;
+    display: inline-block;
+    width: 200px;
+
+
+}
+
+.under-vid{
+    display: flex;
+}
+
+.profile-pic-lineup{
+    width: 50px;
+    height: 50px;
+}
+
+.stats {
+    margin-top: 0px;
+    font-size: 14px;
+    color: grey;
+}
+
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 10px;
+}
+
+.header{
+    
+}
